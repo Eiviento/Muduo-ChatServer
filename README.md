@@ -47,4 +47,7 @@ cd build/
 rm -rf *  
 cmake ..  
 make   
+方式二：
+./auto_compile.sh  
+(注意添加权限)
 

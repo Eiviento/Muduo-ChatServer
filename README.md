@@ -20,7 +20,7 @@
 5. 配置 Nginx 实现 TCP 负载均衡。
 6. 集群聊天系统支持客户端跨服务器通信。
 
-## 项目目标
+## 掌握目标
 1. 掌握服务器网络 I/O、业务、数据模块的分层设计。
 2. 熟悉 C++ muduo 网络库编程及实现原理。
 3. 学会使用 Json 进行数据交换。
@@ -33,19 +33,13 @@
 - Ubuntu Linux 环境。
 - 安装 JSON、Boost、muduo 网络库、Redis、MySQL、Nginx 和 CMake。
 
-## 配置远程开发环境
-- 使用 Windows + VSCode 配置远程 Linux 开发环境。
-- VSCode 安装 Remote Development 插件，配置远程主机信息，实现远程开发。
-
 ## 数据库设计
 - 设计了 `User`、`Friend`、`AllGroup`、`GroupUser` 和 `OfflineMessage` 等表，满足不同业务需求。
 
 ## 项目实践
 - 通过 muduo 网络库实现事件驱动和多线程处理。
-- 使用一致性哈希算法进行负载均衡。
 - 利用 Redis 的发布-订阅机制实现集群服务器间的消息传递。
 - 使用 hiredis 客户端进行 Redis 的订阅和发布编程。
-
 
 ## 编译方式：
 方式一：

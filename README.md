@@ -42,7 +42,7 @@
 - 使用 hiredis 客户端进行 Redis 的订阅和发布编程。
 
 ## 编译方式：
-方式一： 
+方式一：   
 cd build/  
 rm -rf *  
 cmake ..  
